@@ -1,0 +1,37 @@
+body {
+    /* background-image: url(); */ /* if you want to add an image in the background use this line of code */
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    margin: 0;
+}
+
+#clock-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+#clock {
+    font-family: monospace;
+    font-size: 6.5rem;
+    font-weight: bold;
+    text-align: center;
+    color:rgb(6, 245, 18);
+}
+
+#date-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+#date {
+    font-family: monospace;
+    font-size: 6.5rem;
+    font-weight: bold;
+    text-align: center;
+    color:rgb(6, 153, 245);
+}
